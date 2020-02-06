@@ -10,4 +10,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/myList"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:text="Add"
+        android:id="@+id/addBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:text="Remove"
+        android:id="@+id/rmBtn"/>
 </RelativeLayout>

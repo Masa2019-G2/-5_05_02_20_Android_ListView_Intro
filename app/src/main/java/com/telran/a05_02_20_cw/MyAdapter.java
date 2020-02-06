@@ -47,4 +47,15 @@ public class MyAdapter extends BaseAdapter {
         phoneTxt.setText(p.phone);
         return convertView;
     }
+
+
+    public void add(Person p){
+        list.add(1,p);
+        notifyDataSetChanged();
+    }
+
+    public void remove(){
+        list.remove(3);
+        notifyDataSetChanged();
+    }
 }
